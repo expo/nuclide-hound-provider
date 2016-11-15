@@ -1,0 +1,8 @@
+{
+  ".platform-darwin atom-workspace": {
+    "cmd-alt-c": "nuclide-hound-provider:toggle-provider"
+  },
+  ".platform-win32 atom-workspace, .platform-linux atom-workspace": {
+    "ctrl-alt-c": "nuclide-hound-provider:toggle-provider"
+  }
+}

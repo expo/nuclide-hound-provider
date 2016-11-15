@@ -1,0 +1,27 @@
+{
+  "name": "nuclide-hound-provider",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Nuclide Hound Provider",
+  "keywords": [],
+  "repository": "https://github.com/atom/nuclide-hound-provider",
+  "license": "MIT",
+  "nuclide": {
+    "packageType": "Atom",
+    "testRunner": "apm"
+  },
+  "dependencies": {
+    "react-for-atom": "~15.2.1-0",
+    "react-highlighter": "^0.3.3",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  },
+  "providedServices": {
+    "nuclide-quick-open-register-provider": {
+      "description": "Register ourselves with the quick-open package",
+      "versions": {
+        "0.0.0": "registerProvider"
+      }
+    }
+  }
+}
